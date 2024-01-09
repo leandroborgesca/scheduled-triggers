@@ -1,6 +1,5 @@
 name: Scheduled Build
 on:
-    push:
     schedule:
         - cron: '*/5 * * * *'
 
